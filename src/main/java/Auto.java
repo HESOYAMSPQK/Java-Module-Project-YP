@@ -1,7 +1,7 @@
 public class Auto {
-    String name;
-    int speed;
-    Auto(String name, int speed) {
+    final String name;
+    final int speed;
+   public Auto(String name, int speed) {
          this.name = name;
          this.speed = speed;
     }

@@ -1,6 +1,6 @@
 public class Race {
-    String leader = "";
-    int leaderDistance = 0;
+    private String leader = "";
+    private int leaderDistance = 0;
 
 
     public void newLeaderUpdate(Auto auto) {
